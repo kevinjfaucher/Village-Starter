@@ -1,8 +1,14 @@
 .map {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Creates 5 columns */
-    gap: 5px; /* Adds spacing between tiles */
-    margin: 20px auto;
-    width: 300px; /* Adjust based on your preference */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates 5 columns */
+  gap: 5px; /* Adds spacing between tiles */
+  margin: 20px auto;
+  width: 300px; /* Adjust based on your preference */
   }
-  
+  @media screen and (max-width: 768px) {
+  .map {
+  grid-template-columns: repeat(3, 1fr); /* Reduce to 3 columns */
+  width: 100%; /* Occupy full width on small screens */
+  max-width: 100%; /* Prevent overflow */
+  }
+  }

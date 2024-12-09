@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './styles/AddImprovementDialog.css';
+import './Improvements';
 
 const AddImprovementDialog = ({ index, addImprovement, resources, closeDialog }) => {
   const [type, setType] = useState('house');
+
 
   const handleAdd = () => {
     // TODO: Calculate cost and check resources

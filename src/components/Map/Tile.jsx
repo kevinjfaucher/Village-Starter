@@ -12,6 +12,7 @@ const Tile = ({ index, improvement, addImprovement, updateResources, resources }
         <EditImprovementDialog
           improvement={improvement}
           updateResources={updateResources}
+          resources={resources}
           closeDialog={() => setDialogOpen(false)}
         />
       ) : (

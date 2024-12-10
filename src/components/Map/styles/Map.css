@@ -1,8 +1,44 @@
+
 .map {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Creates 5 columns */
-    gap: 5px; /* Adds spacing between tiles */
-    margin: 20px auto;
-    width: 300px; /* Adjust based on your preference */
-  }
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates 5 columns */
+  gap: 5px; /* Adds spacing between tiles */
+  margin: 20px;
+  width: 300px; /* Adjust based on your preference */
+
+}
+
+
+
+
+h2, h1{
+  border-radius: 5px;
+  background-color:dimgray;
   
+  padding: 5px;
+  text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-image: url("src/images/farm-background.jpg");
+  background-size: cover;
+  height: 100vh;
+  
+  margin: 0;
+}
+
+/* Code below is for desktop */
+@media (min-width: 768px) {
+
+  
+
+  .map{
+    background-color: aqua;
+  }
+
+
+}

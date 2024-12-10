@@ -1,7 +1,10 @@
 import React from 'react';
 import './styles/EditImprovementDialog.css';
 
+
 const EditImprovementDialog = ({ improvement, updateResources, closeDialog }) => {
+  
+  
   const handleUpgrade = () => {
     // TODO: Handle upgrade logic
   };
@@ -13,6 +16,8 @@ const EditImprovementDialog = ({ improvement, updateResources, closeDialog }) =>
   const handleRemove = () => {
     // TODO: Handle remove logic
   };
+
+ 
 
   return (
     <div className="edit-improvement-dialog">

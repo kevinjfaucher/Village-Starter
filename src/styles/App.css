@@ -1,7 +1,19 @@
 .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
   }
   
+  header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  }
+  @media screen and (max-width: 768px) {
+  .app {
+  margin: 10px; /* Reduce margin for smaller screens */
+  }
+  }

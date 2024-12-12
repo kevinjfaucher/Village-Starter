@@ -1,0 +1,13 @@
+.level{
+    background-color: blue;
+    color: white;
+    font-size: .625rem;
+    position: absolute;
+    width: 10px;
+    padding: 3px;
+    height: 10px;
+    text-align: center;
+    border-radius: 15px;
+    bottom: -4px;
+    right: 0px;
+}

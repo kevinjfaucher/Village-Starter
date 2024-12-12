@@ -1,0 +1,33 @@
+
+img{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.resources-legend{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color:yellowgreen;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.resources-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
